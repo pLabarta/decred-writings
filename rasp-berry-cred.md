@@ -29,9 +29,9 @@ The node started downloading the Decred blockchain. My work could be done, but I
 
 I’m the proud owner of a little Raspberry Pi 3+ since 2016, which I use for several DYI projects (bots, a failed media-center at home, and just tinkering with Debian). This small computer quickly became my go-to hardware for setting up nodes.
 
-For those who are considering getting one, the new Raspberry Pi 4 costs $35, a cable and a charger,, $10, 16 GB Micro SD, $10; plus the shipping costs.
+For those who are considering getting one, the new Raspberry Pi 4 costs $35, a cable and a charger $10, 16 GB Micro SD $10; plus the shipping costs depending on your location.
 
-For those like me who first tested the software on their personal computers, keep in mind that smaller computers like Raspberry Pi have a different architecture. While most “regular” computers have x64 and x86 chips, the Raspberry Pi has an ARM architecture and users must install the ARM version of the software. Otherwise it won’t run. (It got me a while to learn this. Clap twice if I saved you some time).
+Those like me who first tested the software on their personal computers, should keep in mind that smaller computers like Raspberry Pi have a different architecture. While most “regular” computers have x64 and x86 chips, the Raspberry Pi has an ARM architecture and users must install the ARM version of the software. Otherwise it won’t run. (It got me a while to learn this. Clap twice if I saved you some time).
 
 The Raspberry Pi at the office is running Raspbian, a Raspberry Pi version of Debian, a popular Linux distribution. The OS can be installed by downloading the image from the official Raspbian site and installing it in the Micro SD card with something like Balena Etcher.
 
