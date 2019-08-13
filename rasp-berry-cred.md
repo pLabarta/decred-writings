@@ -1,3 +1,5 @@
+#Setting up a DCR full-node for non-devs
+
 Some weeks ago, we decided to set up a Decred full-node at our office. There are no developers in our team, we are just a bunch of people with design and communication backgrounds so it presented a bit of a challenge. Fortunately, everything is well documented on Github and the Decred site. The node is now up and running. This was our experience.
 
 Research
