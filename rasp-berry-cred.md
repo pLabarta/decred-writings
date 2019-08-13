@@ -4,7 +4,7 @@ Some weeks ago, we decided to set up a Decred full-node at our office. There are
 
 ## Research
 
-In Crypto Rocket we like to get our hands on every project we do communications for. Decred is one of them. We wanted to get involved with the network and decided that setting up a node would be the best way to do it.
+As a writer, I believe that tinkering with the software and hardware I'm writing about is the best way to understand it. So I pushed my fellow content creators at Crypto Rocket to set up a DCR full-node at our office.
 
 The first thing we did was to look up for the node software at the Github repo. We found two ways of doing it: setting up Decrediton and use the GUI like most users would or go full-dev style and show-off my basic command line skills at the office.
 
