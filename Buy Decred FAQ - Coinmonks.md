@@ -1,3 +1,5 @@
+![pool-stakey](https://raw.githubusercontent.com/pLabarta/decred-writings/master/img/comicNotFound_poolStakey_twitter.png)
+
 # Why should people buy Decred?
 
 [Decred](https://decred.org/) is a community-directed digital currency with built-in governance to make it a superior long-term store of value. It is backed by sustainable funding for development and adapting according to the wishes of its stakeholders.
@@ -8,15 +10,13 @@ People should stake the Decred they buy if they want to play an active role in s
 
 ## Is Decred's blockchain secure?
 
-Hybrid PoW + PoS leverages the power of PoW while enhancing security with an additional layer operated by DCR holders who stake their DCR to buy tickets. In every block, five tickets are selected to vote, and their input is required to create the next block. Stakeholders review the work of miners block by block, making secret or selfish mining impossible without controlling many tickets.
+Hybrid [Proof-of-Work mining](https://docs.decred.org/mining/overview/) + [Proof-of-Stake voting](https://docs.decred.org/proof-of-stake/overview/) leverages the power of PoW while enhancing security with an additional layer operated by DCR holders who stake their DCR to buy tickets. In every block, five tickets are selected to vote, and their input is required to create the next block. Stakeholders review the work of miners block by block, making secret or selfish mining impossible without controlling many tickets.
 
 ## Why not just PoW?
 
-The hybrid system allows Decred to be **fork-resistant** and twenty times **more expensive to attack** than PoW networks.
+While Decred's [hashrate keeps growing](https://explorer.dcrdata.org/charts?chart=hashrate&zoom=ip4ojk00-k1jxqtc0&bin=day&axis=time), having a hybrid system allows Decred to be **fork-resistant** and twenty times **more expensive to attack** than PoW-only networks.
 
-Having a **Proof-of-Stake** system also enables built-in **formalized governance** that allows changing the consensus rules while avoiding hard forks. And the **decentralized Treasury** allows developers to focus on their agenda and not third-party interests.
-
-Decred can ignore the noise and **focus on** developing a **secure store of value**.
+Having a **Proof-of-Stake** system also enables built-in **formalized governance** that allows changing the consensus rules while avoiding hard forks. And the **decentralized Treasury** enables developers to focus on developing a **secure store of value**. and not third-party interests.
 
 ## How is Decred development funded?
 
@@ -28,9 +28,11 @@ Decred can ignore the noise and **focus on** developing a **secure store of valu
 >
 > #### get funded.
 
-**Decred is self-funded.** 10% of the block rewards go to the **Treasury**. Those who stake DCR decide which development projects get funded. Through the Treasury, Decred has already hired more than 30 developers, 20 community managers, and a PR agency to work on the project. Its developers did the first Atomic Swap between Decred and Litecoin, and are currently working on implementing Lightning Network and a creating a new Decentralized Exchange.
+**Decred is self-funded.** 10% of the block rewards go to the **Treasury**. Those who stake DCR decide which development projects get funded. Through the Treasury, Decred has already hired more than 30 developers, 20 community managers, and a PR agency to work on the project. The governance platform, [Politeia](https://docs.decred.org/governance/politeia/overview/), enables stakeholders to **submit, track, discuss and vote for proposals**.
 
-The governance platform, [Politeia](https://docs.decred.org/governance/politeia/overview/), enables stakeholders to **submit, track, discuss and vote for proposals**.
+## Does Decred have good developers?
+
+Decred has a [team](https://decred.org/contributors/#development) of [amazing developers](https://twitter.com/decredulous/status/940971075420217344). And its [Roadmap](https://decred.org/roadmap/) includes Lightning Network, a new Decentralized Exchange and privacy features.
 
 ## Is Decred a DAO?
 
