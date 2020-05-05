@@ -1,6 +1,6 @@
 # Introducción a Decred: una reserva de valor segura, adaptable y sustentable
 
-Decred es una criptomoneda enfocada en el mismo segmento que Bitcoin, la reserva de valor. Esta moneda al unir la visión del uno de los creadores de Monero, un energético forista anónimo y un equipo de desarrolladores que acababa de crear una implementación alternativa de Bitcoin, reescribiendo completamente el código de un nodo usando go-lang. Todos coincidieron en tres puntos: Bitcoin necesita financiación, debe ser independiente y deberían ser los holders quienes tomen las decisiones.
+Decred es una criptomoneda enfocada en el mismo segmento que Bitcoin, la reserva de valor. Esta moneda al surgió al unir la visión del uno de los creadores de Monero, un energético forista anónimo y un equipo de desarrolladores que acababa de crear una implementación alternativa de Bitcoin, reescribiendo completamente el código de un nodo usando go-lang. Todos coincidieron en tres puntos: Bitcoin necesita financiación, debe ser independiente y deberían ser los holders quienes tomen las decisiones.
 
 Lanzada en 2016, la red Decred fue desarrollada implementando aquellos componentes de Bitcoin que demostraron ser exitosos como el diseño de la blockchain basado en transacciones, el límite de 21 millones y el sistema de minería Proof-of-Work. Pero para solucionar los problemas detectados, se agregó un sistema de votación Proof-of-Stake y un Tesoro que acumula parte del DCR generado para financiar proyectos sin depender de empresas o inversores.
 
