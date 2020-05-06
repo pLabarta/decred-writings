@@ -4,7 +4,7 @@
 
 **Decred** es una criptomoneda enfocada en el mismo segmento que **Bitcoin**, la reserva de valor. Esta es el resultado de un artículo escrito por uno de los creadores de **Monero**, un miembro anónimo del foro Bitcointalk y un equipo de programadores que acababa de escribir una **implementación alternativa de Bitcoin** en el lenguaje de programación Go en vez de C++. Todos coincidían en tres puntos: Bitcoin necesita financiación, debe mantenerse independiente y debería existir un proceso para actualizar moneda y tomar decisiones.
 
-Lanzada en 2016, la red Decred fue desarrollada implementando aquellos componentes de Bitcoin que demostraron ser exitosos como el diseño de la blockchain basado en **transacciones**, el límite de **21 millones** y el sistema de **minería** **Proof-of-Work**. Pero para solucionar los problemas detectados, se agregaron nuevos componentes: el sistema Proof-of-Stake le da poder a los holders y aumenta el costo de los ataques a la red por parte de los mineros y un Tesoro descentralizado, con su respectivo sistema de gobernanza, permiten que el proyecto sea completamente sustentable, sin depender de empresas o inversores.
+Lanzada en 2016, la red Decred fue desarrollada implementando aquellos componentes de Bitcoin que demostraron ser exitosos como el diseño de la blockchain basado en **transacciones**, el límite de **21 millones** y el sistema de **minería** **Proof-of-Work**. Pero para solucionar los problemas detectados, se agregaron nuevos componentes: un complemento Proof-of-Stake le da poder a los holders y aumenta el costo de los ataques a la red por parte de los mineros y un Tesoro descentralizado, con su respectivo sistema de gobernanza, permite que el proyecto sea completamente sustentable, sin depender de empresas o inversores.
 
 Si bien se trata de un proyecto con un fuerte origen en Bitcoin, el plan de acción y ahora también el código poco tienen en común con la primera coin que abrió el juego de las criptomonedas. Decred es una interación sobre Bitcoin con especial atención en la [gobernanza](https://es.cointelegraph.com/news/bitcoin-could-revolutionize-governance-says-cypherpunk-jameson-lopp).
 
@@ -27,7 +27,7 @@ Esta variación motivó el desarrollo de distintas plataformas que, más allá d
 Las bases de Decred pueden resumirse en los seis principios definidos por su comunidad:
 
 1. **Software libre y de código abierto:** Todo el software desarrollado por Decred será libre y de código abierto.
-2. **Libertad de expresión y consideración:** Todos tienen derecho a comunicar sus opiniones e ideas si miedo a la censura. Se considerarán todas las voces constructivas basadas en los hechos y la razón.
+2. **Libertad de expresión y consideración:** Todos tienen derecho a comunicar sus opiniones e ideas sin miedo a la censura. Se considerarán todas las voces constructivas basadas en los hechos y la razón.
 3. **Inclusión de todos los stakeholders:** La inclusión representa a un sistema con múltiples partes interesadas y se debe trabajar para mantener la diversidad de perspectivas y usuarios.
 4. **Privacidad y seguridad progresiva:** Tecnología de privacidad y seguridad será implementada de forma continua y progresiva, tanto de manera proactiva como en respuesta a ataques.
 5. **Emisión fija y finita:** La emisión es finita y la emisión total nunca deberá superar los 20.999.999,99800912 DCR.
