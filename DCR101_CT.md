@@ -2,9 +2,9 @@
 
 *Por Pablo Labarta*
 
-**Decred** es una criptomoneda enfocada en el mismo segmento que **Bitcoin**, la reserva de valor. Esta es el resultado de un artículo escrito por uno de los creadores de **Monero**, un miembro anónimo del foro Bitcointalk y un equipo de programadores que acababa de escribir una **implementación alternativa de Bitcoin** en el lenguaje de programación Go en vez de C++. Todos coincidían en tres puntos: Bitcoin necesita financiación, debe mantenerse independiente y debería existir un proceso para actualizar moneda y tomar decisiones.
+**Decred** es una criptomoneda que emerge en el mismo segmento que **Bitcoin**, la reserva de valor. Esta inicia como resultado de un artículo escrito por uno de los creadores de **Monero**, un miembro anónimo del foro Bitcointalk y un equipo de programadores que acababa de escribir una **implementación alternativa de Bitcoin** en el lenguaje de programación Go en vez de C++. Todos coincidían en tres puntos: Bitcoin necesita financiación, debe mantenerse independiente y debería existir un proceso para actualizar moneda y tomar decisiones.
 
-Lanzada en 2016, la red Decred fue desarrollada implementando aquellos componentes de Bitcoin que demostraron ser exitosos como el diseño de la blockchain basado en **transacciones**, el límite de **21 millones** y el sistema de **minería** **Proof-of-Work**. Pero para solucionar los problemas detectados, se agregaron nuevos componentes: un complemento Proof-of-Stake le da poder a los holders y aumenta el costo de los ataques a la red por parte de los mineros y un Tesoro descentralizado, con su respectivo sistema de gobernanza, permite que el proyecto sea completamente sustentable, sin depender de empresas o inversores.
+Lanzada en 2016, la red Decred fue desarrollada incorporando en su implementación aquellos componentes de Bitcoin que demuestran ser exitosos como lo son el diseño de la blockchain basado en **transacciones**, el límite de **21 millones** y el sistema de **minería** **Proof-of-Work**. Más se percibian problemas y mejoras, lo que motivó el incluir nuevos componentes: un complemento Proof-of-Stake que le da poder a los holders y aumenta el costo de los ataques a la red por parte de los mineros y un Tesoro descentralizado, con su respectivo sistema de gobernanza, que le permite al proyecto ser completamente sustentable, sin depender de empresas o inversores y limitar los de intereses de terceros sobre los intereses de la red.
 
 Si bien se trata de un proyecto con un fuerte origen en Bitcoin, el plan de acción y ahora también el código poco tienen en común con la primera coin que abrió el juego de las criptomonedas. Decred es una interación sobre Bitcoin con especial atención en la [gobernanza](https://es.cointelegraph.com/news/bitcoin-could-revolutionize-governance-says-cypherpunk-jameson-lopp).
 
@@ -14,13 +14,13 @@ Si bien se trata de un proyecto con un fuerte origen en Bitcoin, el plan de acci
 
 Los **mineros** son quienes deciden qué implementar al trabajar y asegurar la cadena de su preferencia. Los **programadores** deciden qué implementar al diseñar y escribir los cambios necesarios para hacerlo. Pero **no existen mecanismos formales** para tomar decisiones como grupo.
 
-Bitcoin, y el grupo Nakamoto, se encargaron de quitar a gran parte de los **intermediaros financieros** del camino, pero al aprovechar las virtudes del software open-source, también heredaron sus problemas. La misma apertura que permite que cualquiera colabore con el código y que cualquiera lo use sin tener que pagar ni un satoshi a una empresa desarrolladora, hace que **la financiación y el mantenimiento** dependan de donaciones, sean de tiempo o dinero. Se trata de un problema tan famoso que hasta tiene nombre: [la tragedia de los comunes](https://es.wikipedia.org/wiki/Tragedia_de_los_bienes_comunales). Así, el proyecto es abierto, pero para avanzar depende de inversores externos o desarrolladores con suficiente tiempo libre para dedicarle horas a un proyecto que no les ayuda a llevar comida a la mesa. Así, **las empresas** que minan o le pagan a los desarrolladores son quienes definen la agenda y el camino a seguir.
+Bitcoin, y el grupo Nakamoto, se encargaron de quitar a gran parte de los **intermediaros financieros** del camino, pero el apalancarse de las virtudes del software open-source, también crea sus vicios. La misma apertura que permite que cualquiera colabore con el código y que cualquiera lo use sin tener que pagar ni un satoshi a una empresa desarrolladora, hace que **la financiación y el mantenimiento** dependan de donaciones, sean de tiempo o dinero. Se trata de un problema tan famoso que hasta tiene nombre: [la tragedia de los comunes](https://es.wikipedia.org/wiki/Tragedia_de_los_bienes_comunales). Así, como el proyecto es abierto, para avanzar depende de inversores externos o desarrolladores voluntarios con suficiente tiempo libre para dedicarle horas a un proyecto que no les ayuda a llevar comida a la mesa. Otra consecuencia es que **las empresas** que minan, en ocasiones pagan o subsidian a grupos de desarrolladores sin la obligación de transparentar sus motivos, son quienes definen la agenda y el camino a seguir.
 
-A su vez, en estos entornos donde no hay posiciones ni sueldos, la reputación lo es todo. Si se combina este escenario con la falta de estructuras de gobierno formales, se forman **pequeñas élites de mineros y programadores** que se ven favorecidas y consolidan su posición de poder. En la práctica, estos grupos pueden impedir que se implementen nuevas ideas que no los benefician como sucedió con **SegWit**, la discusión por el tamaño de los bloques o [el cambio a ProgPow](https://es.cointelegraph.com/news/progpow-is-dead-long-live-progpow-ethereum-developer-call-summary) en **Ethereum**.
+A su vez, en estos entornos colaborativos donde no hay jerarquías, posiciones o sueldos, la meritocracia se vuelve fundamental, y la reputación lo es todo. Si a esto le sumamos la falta de estructuras de gobierno formales, como resultado obtenemos la formación de **pequeñas élites de mineros y programadores** que se ven favorecidas y consolidan su posición de poder. En la práctica, estos grupos pueden impedir que se implementen nuevas ideas que no los benefician como sucedió con **SegWit**, la discusión por el tamaño de los bloques o [el cambio a ProgPow](https://es.cointelegraph.com/news/progpow-is-dead-long-live-progpow-ethereum-developer-call-summary) en **Ethereum**.
 
-A diferencia de Bitcoin, Decred busca poder adaptarse, incorporar nuevas ideas y mejorar su tecnología constantemente. El sistema **Proof-of-Stake** permite que quienes tienen Decred y están dispuestos congelarlo por un tiempo tengan poder de decisión. Así, con mecanismos formales que incluyen discusiones y votaciones, el colectivo de stakeholders puede coordinar para invertir los fondos del Tesoro para lograr sus objetivos, sea modificar el software, construir un exchange descentralizado u organizar eventos online.
+Decred incluye en su diseño la adaptabilidad, teniendo así la facultad de incorporar nuevas ideas y mejorar su tecnología constantemente, diferenciandose  así fundamentalmente de Bitcoin. Es el sistema **Proof-of-Stake** el que permite que los tenedores de Decred que tengan disposición a bloquear cierta cantidad de sus fondos por un tiempo tengan poder de decisión. Esto da paso a mecanismos formales de gobernanza que incluyen discusiones y votaciones. Así, el colectivo de stakeholders puede coordinar para invertir los fondos del Tesoro para lograr sus objetivos, sea modificar el software, construir un exchange descentralizado u organizar eventos online.
 
-Esta variación motivó el desarrollo de distintas plataformas que, más allá de las posibilidades económicas, indagan también en el potencial de las [**Organizaciones Autónomas Descentralizadas (DAO)**](https://es.cointelegraph.com/ethereum-for-beginners/what-is-dao) y las formas de coordinación social. El resultado incluye, entre otros, un exchange descentralizado, un servicio de mezcla/privacidad, un foro inmutable para discutir propuestas, un sistema de votación on-chain y un sistema de facturación y gestión de contratistas transparente y descentralizado.
+Esta característica, hizo posible el desarrollo de distintas tecnologías que, más allá de las posibilidades económicas, indagan también en el potencial de las [**Organizaciones Autónomas Descentralizadas (DAO)**](https://es.cointelegraph.com/ethereum-for-beginners/what-is-dao) y las formas de coordinación social. El resultado incluye, entre otros, un exchange descentralizado, un servicio de mezcla/privacidad, un foro inmutable para discutir propuestas, un sistema de votación on-chain y un sistema de facturación y gestión de contratistas transparente y descentralizado.
 
 ## Los principios de la comunidad
 
@@ -61,12 +61,11 @@ Las personas que realizan trabajo para Decred se llaman contratistas y cobran po
 
 El uso de los fondos del Tesoro se define a través de **[Politeia](https://proposals.decred.org)**, una **plataforma de gobernanza** pensada para recibir propuestas, discutir y votar para ejecutarlas o no. Los stakeholders de Decred son quienes definen los proyectos que serán financiados y el dinero solo sale del Tesoro cuando cuando el contratista presenta sus resultados. Este es un pequeño detalle muy importante: el Tesoro siempre paga luego de que el trabajo sea presentado, nunca antes. De esta forma se evita que se acerquen personas, prometan algo, cobren y no lo cumplan.
 
-Politeia es una plataforma similar a **Reddit**, pero con dos importantes mejoras: el contenido se sella en la blockchain de Decred usando [DCRTime](https://docs.decred.org/advanced/dcrtime/) y los usuarios deben pagar un pequeño monto **para evitar el spam**. Crear una cuenta en Politeia cuesta **0,1 DCR** y presentar una propuesta, otros 0,1 DCR.
+Politeia es una plataforma similar a foros de discusión como **Reddit**, con la suma de dos importantes mejoras: el contenido se sella en la blockchain de Decred usando [DCRTime](https://docs.decred.org/advanced/dcrtime/) y los usuarios deben pagar un pequeño monto **para evitar el spam**. Crear una cuenta en Politeia cuesta **0,1 DCR** y presentar una propuesta, otros 0,1 DCR.
 
 Las propuestas son planes de acción que incluyen:
 
 - Problemas
-
 - Soluciones
 - Costos
 - Equipo de trabajo
@@ -106,7 +105,7 @@ Hacia fines de **2015**, C0 publicó una serie de artículos en su blog donde Ja
 
 En 2016, tacotime hizo su [última publicación en Bitcointalk](https://bitcointalk.org/index.php?topic=169204.msg13256478#msg13256478), mencionando el desarrollo de Decred en su posteo sobre Memcoin2 y se dedicó a colaborar con Monero para luego desaparecer.
 
-Hoy el equipo de Decred esta integrado por **más de 90 personas** de todo el mundo y algunos personajes anónimos. Cualquier puede colaborar con el proyecto a través de los repositorios de Github. Si su trabajo es valioso, serán invitados a convertirse en contratistas y cobrar por sus esfuerzos.
+Hoy el equipo de Decred esta integrado por **más de 90 personas** en más de 35 países más algunos personajes anónimos. No hay restricción alguna puede colaborar con el proyecto a través de los repositorios de Github. Si su trabajo es valioso, serán invitados a convertirse en contratistas y cobrar por sus esfuerzos.
 
 ## {conclusion sin terminar} El poder de la inteligencia colectiva
 
@@ -115,12 +114,13 @@ Las plataformas desarrolladas por Decred permiten coordinar a toda la comunidad 
 Parte de la tesis de Decred es que en el futuro vendrán nuevos desafíos y la única forma de anticiparse es contar con estructuras flexibles que permiten adaptarse a estos problemas desconocidos. Así, la comunidad de Decred constantemente busca incorporar a nuevos desarrolladores, investigadores y comunicadores para expandirse.
 
 
+## {propongo otro título que utiliza el slogansito porque repetición=posicionamiento} Una moneda segura, adaptable y sostenible
 
+Decred es una moneda dirigida por la comunidad que utiliza el poder de la inteligencia colectiva para tomar las decisiones que aseguren su permanencia en el largo plazo. 
 
+Las criptomonedas están permanentemente ligadas a la infraestructura tecnologica que las soporta. Parte de la tesis de Decred es reconocer que la tecnología no es estática o absoluta y que en el futuro existirán nuevos desafíos y la forma más inteligente de anticiparse es contar con estructuras flexibles que permiten adaptarse a estos problemas desconocidos. Avanzar a la par de los cambios que se van presentando requiere contar con los recursos necesarios de manera sostenible. Los recursos de financiamiento son previstos a través del tesoro y los colaboradores, investigadores y desarrolladores están en constante flujo a través del modelo de open source que permite que cualquier persona pueda contribuir.
 
-
-
-
+Al día de hoy, Decred concentra la mayoría de sus esfuerzos en crear tecnología robusta, segura y que sea para beneficio público. El diseño de Decred y su tecnología apuntan a ser una reserva de valor superior hoy y mañana.
 
 
 
