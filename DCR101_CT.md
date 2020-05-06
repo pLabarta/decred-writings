@@ -108,7 +108,7 @@ En 2016, tacotime hizo su [última publicación en Bitcointalk](https://bitcoint
 
 Hoy el equipo de Decred esta integrado por **más de 90 personas** de todo el mundo y algunos personajes anónimos. Cualquier puede colaborar con el proyecto a través de los repositorios de Github. Si su trabajo es valioso, serán invitados a convertirse en contratistas y cobrar por sus esfuerzos.
 
-## El poder de la inteligencia colectiva
+## {conclusion sin terminar} El poder de la inteligencia colectiva
 
 Las plataformas desarrolladas por Decred permiten coordinar a toda la comunidad para desarrollar esta criptomoneda. Esta iteración sobre Bitcoin apuesta principalmente a el potencial de la colaboración humana por sobre la idea de congelar reglas usando criptografía.
 
