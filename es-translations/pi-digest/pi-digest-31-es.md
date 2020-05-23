@@ -1,5 +1,7 @@
 # Edición 31 - Abril 16 - Mayo 22 2020
 
+![featured-31](img/featured-31.jpg)
+
 Balance del tesoro: 627.750 DCR (aprox +13.000 DCR/mes) - US$ 8,9 millones (+183K/mes) basado en un precio del DCR de US$ 14,10.
 
 ## Nuevas propuestas
