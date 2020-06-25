@@ -1,0 +1,390 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
+
+	</head>
+	<body style="font-family: 'Source Sans Pro', sans-serif;">
+		<div class="reveal">
+			<div class="slides">
+				<section>
+				    <section data-markdown>
+					  <textarea data-template>
+						## git & GitHub
+						**Herramientas de colaboración**
+
+						by
+						<img src="dcrlogo.png" alt="dcrlogo" style="max-width: 100%; margin-top: -50px;">
+						HablemosDecred
+						<br>
+						Junio 2020, Internet
+					  </textarea>
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+							## Pablo Labarta
+							<img src="pablito.jpg" alt="" style="display: block; margin: auto; height: 200px; margin-bottom: 20px;">
+							Decred en Español
+							<br>
+							Escribo en Español, Inglés y Python
+							<br>
+							<a href="https://github.com/plabarta">Github!</a> - <a href="https://twitter.com/plabarta_">Twitter</a>
+						</textarea>
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+							<img src="dcr.png" alt="" style="display: block; margin: auto; height: 400px; margin-bottom: 20px;">
+							Una criptomoneda autónoma, dirigida por su comunidad. Todo lo que hacemos es open-source.
+							<br>
+							<a href="https://decred.org">Sitio</a> - <a href="https://docs.decred.org">Documentación</a>
+						</textarea>
+					</section>
+					
+				</section>
+				<!-- FIN PRESENTACION # COMIENZO INTRO DE LA CHARLA -->
+				<section>
+					<section data-markdown>
+						<textarea data-template>
+						  ## git & GitHub
+						  **Herramientas de colaboración**
+						</textarea>
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+							<p>Colaborar nos cuesta.</p>
+							<img src="agotado.png" alt="" style="display: block; margin: auto; height: 400px; margin-bottom: 20px;">
+
+						
+						</textarea>
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+							Agrega tareas:
+							- Compartir y discutir ideas
+							- Ponernos de acuerdo
+							- Compartir archivos
+						</textarea>
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+							Nivel 1: Colaborar de forma presencial
+						</textarea>
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+							Nivel 2: Colaborar de forma remota
+							+ comunicación asincrónica
+							+ ¿esa es la versión final?
+							+ "ultima vez conectado: hace 7 horas"
+						</textarea>
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+							Nivel 3: Colaborar de forma remota **con extraños**
+							+ confianza
+							+ canales de comunicación limitados
+							+ timezones
+							+ diferentes ideas y objetivos
+						</textarea>
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+							<!-- <img src="octocat.png" alt="" style="display: block; margin: auto; height: 400px; margin-bottom: 20px;"> -->
+							Los proyectos más exitosos juegan en el nivel 3
+						</textarea>
+					</section>
+				</section>
+				<!-- FIN DE LA INTRO # ARRANCA Qué es GIT-->
+				<section data-background="#dddddd">
+					<section data-markdown>
+						<textarea data-template>
+							<img src="git.png" alt="" style="display: block; margin: auto; height: 400px; margin-bottom: 20px;">
+
+						
+						</textarea>
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+							1. git no es solo para programadores, sirve para toda clase de archivos.
+						</textarea>
+					</section>
+					<section data-markdown data-background="#fffff">
+						<textarea data-template>
+							<p>2. La terminal de la computadora no es un monstruo, simplemente habla otro idioma. </p>
+							<img src="terminal.png" alt="" style="display: block; margin: auto; margin-bottom: 20px;">
+
+						
+						</textarea>
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+							#  Git no es Github
+							<!-- <img src="octocat.png" alt="" style="display: block; margin: auto; height: 400px; margin-bottom: 20px;"> -->
+							
+						</textarea>
+					</section>
+					<section data-markdown data-background="#fb5139" style="color: white;">
+						<textarea data-template>
+							# Git
+							Sistema de Control de Versiones
+							<!-- <img src="octocat.png" alt="" style="display: block; margin: auto; height: 400px; margin-bottom: 20px;"> -->
+							
+						</textarea>
+					</section>
+					<section id="fragments" style="top: 168px; display: block; color: white;" class="present" data-fragment="1" data-background="#fb5139">
+						<p class="fragment" data-fragment-index="0">Creado por Linus Torvalds en 2005</p>
+						<p class="fragment" data-fragment-index="1">para facilitar el desarrollo del kernel de Linux.</p>
+						<p class="fragment" data-fragment-index="2">Es gratuito, open-source y se distribuye bajo la licencia GNU GPL v2.</p>
+					</section>
+					<section data-markdown data-background="#fb5139" style="color: white;">
+						<textarea data-template>
+							¿Para qué sirve git?
+
+							<!-- <img src="octocat.png" alt="" style="display: block; margin: auto; height: 400px; margin-bottom: 20px;"> -->
+							
+						</textarea>
+					</section>
+					<section data-markdown data-background="#fb5139" style="color: white;">
+						<textarea data-template>
+							Mantener un registro de todos los cambios
+							<!-- <img src="octocat.png" alt="" style="display: block; margin: auto; height: 400px; margin-bottom: 20px;"> -->
+							
+						</textarea>
+					</section>
+					<section data-markdown data-background="#fb5139" style="color: white;">
+						<textarea data-template>
+							Sincronizar código entre diferentes personas
+							<!-- <img src="octocat.png" alt="" style="display: block; margin: auto; height: 400px; margin-bottom: 20px;"> -->
+							
+						</textarea>
+					</section>
+					<section data-markdown data-background="#fb5139" style="color: white;">
+						<textarea data-template>
+							Probar cambios
+							<!-- <img src="octocat.png" alt="" style="display: block; margin: auto; height: 400px; margin-bottom: 20px;"> -->
+							
+						</textarea>
+					</section>
+					<section data-markdown data-background="#fb5139" style="color: white;">
+						<textarea data-template>
+							Volver a una versión vieja
+							<!-- <img src="octocat.png" alt="" style="display: block; margin: auto; height: 400px; margin-bottom: 20px;"> -->
+							
+						</textarea>
+					</section>
+					<section data-markdown data-background="#fb5139" style="color: white;">
+						<textarea data-template>
+							Repasamos:
+
+							- Mantener un registro de los cambios
+							- Sincronizar código entre personas
+							- Probar cambios sin perder el original
+							- Volver a una versión anterior
+						</textarea>
+					</section>
+				</section>
+				<!-- FIN GIT # ARRANCA GITHUB -->
+				<section data-background="#ffffff">
+					<section data-markdown data-background="#fffff">
+						<textarea data-template>
+							<img src="github.png" alt="" style="display: block; margin: auto; margin-bottom: 20px;">
+
+						
+						</textarea>
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+							Fundada en 2008
+							<br>
+							<br>
+							Comprada por Microsoft en 2018 por US$ 7.500 millones
+						</textarea>
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+							Provee servicios:
+							- Funcionalidad base de git
+							- Control de acceso
+							- Bug tracking
+							- Feature requests
+							- Gestión de proyectos
+							- Wikis
+						</textarea>
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+							- Cuentas gratuitas para individuos
+							- Repositorios privados y públicos
+						</textarea>
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+							Resumiendo:
+							<br>
+							- GitHub es una plataforma
+							- Almacena repositorios de git
+							- Provee herramientas de gestión de proyectos
+			
+						</textarea>
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+							Nada más, nada menos.
+							<br>
+							(Y también hay alternativas)
+						</textarea>
+					</section>
+				</section>
+				<!-- TEMRINA GITHUB # ARRANCA COMANDOS GIT -->
+				<section>
+					<section data-markdown>
+						<textarea data-template>
+							# Hablemos Git
+						</textarea>
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+							# git clone
+							*hace una copia de un repositorio y la descarga a nuestra computadora*
+
+							<p style="color: orangered;">git clone <span style="color: grey;">repositorio</span></p>
+							<br>
+						</textarea>
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+							# git add
+							*le dice a git que tenga en cuenta los cambios a ciertos archivos para la próxima versión*
+
+							<p style="color: orangered;">git add <span style="color: grey;">archivo</span></p>
+							<br>
+						</textarea>
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+							# git commit
+							*guarda los cambios y genera una nueva versión*
+
+							<p style="color: orangered;">git commit -m <span style="color: grey;">mensaje</span></p>
+							<br>
+						</textarea>
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+							# git status
+							*nos dice el estado actual de nuestro repositorio, si está adelantado o atrasado al que está online*
+
+							<p style="color: orangered;">git status</p>
+							<br>
+						</textarea>
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+							# git log
+							*nos muestra la historia de nuestro repositorio*
+
+							<p style="color: orangered;">git log </p>
+							<br>
+						</textarea>
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+							# git push
+							*le envía nuestros cambios a otro repositorio, generalmente el repositorio online*
+
+							<p style="color: orangered;">git push <span style="color: grey;">repositorio</span></p>
+							<br>
+						</textarea>
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+							# git pull
+							*nos trae todos los cambios del repositorio remoto y actualiza el de nuestra computadora*
+
+							<p style="color: orangered;">git pull <span style="color: grey;">repositorio</span></p>
+							<br>
+						</textarea>
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+							# conflictos
+							*si dos personas cambian la misma línea de un archivo, git no sabe con cuál quedarse y tenemos que ayudarle*
+
+							<p style="color: orangered;">lo vemos en la <span style="color: grey;">demo!</span></p>
+							<br>
+						</textarea>
+					</section>
+				</section>
+				<!-- FIN GIT # ARRANCA DEMO -->
+				<section>
+					<section data-markdown>
+						<textarea data-template>
+							# demo
+							*a poner todo en práctica*
+							
+
+							<!-- <p style="color: orangered;">lo vemos en la <span style="color: grey;">demo!</span></p> -->
+							<br>
+						</textarea>
+					</section>
+				</section>
+				<!-- fin DEMO # ARRANCA CIERRE -->
+				<section>
+					<section data-markdown="">
+						# ¿Preguntas?
+					</section>
+					<section data-markdown="">
+						*Terminal que habla, no muerde.*
+					</section>
+					<section data-markdown="">
+						*Hay que practicar.*
+					</section>
+					<section data-markdown="">
+						<p style="color: orangered;">git commit -m <span style="color: grey;">prueba 1</span></p>
+					</section>
+					<section data-markdown="">
+						<p style="color: orangered;">git commit -m <span style="color: grey;">prueba 2</span></p>
+					</section>
+					<section data-markdown="">
+						<p style="color: orangered;">git commit -m <span style="color: grey;">prueba N</span></p>
+					</section>
+				</section>
+				<section>
+					<p>Muchas gracias.</p>
+
+						<img src="dcrlogo.png" alt="dcrlogo" style="max-width: 100%; margin-top: -50px;">
+					<p>decred.org</p>
+					<p>t.me/dcrlatam_devs</p>
+					<p>t.me/decredES</p>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
